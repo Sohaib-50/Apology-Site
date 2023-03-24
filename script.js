@@ -6,6 +6,7 @@ yesBtn.addEventListener('click', function() {
   // make the alert class visible
   // alert('thank 😋');
   document.getElementsByClassName('alert')[0].style.visibility = 'visible';
+  document.getElementById('no').style.transform = 'translateY(0px)';
   // hide the alert after 10 seconds
   setTimeout(function() {
     document.getElementsByClassName('alert')[0].style.visibility = 'hidden';
